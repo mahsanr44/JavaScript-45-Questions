@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Assignment-1</title>
+
+</head>
+<body>
+    
+</body>
+<script>
+    
+    let guests=['Ali','Abdullah','Hammad'];
+    console.log(`Hello Everyone, I just found a bigger table, let's invite three more people`);
+
+    guests.unshift("Daniyal");
+    guests.splice(3,0,"Mustafa");
+    guests.push("Zia Khan");
+    for (guest of guests){
+        console.log(`Hello ${guest}, you're invited to dinner at my home today.`);
+    }
+
+</script>
+</html>
